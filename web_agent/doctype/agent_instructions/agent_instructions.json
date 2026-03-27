@@ -4,6 +4,7 @@
   "module": "Web Agent",
   "custom": 0,
   "fields": [
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Enable\nDisable", "default": "Enable", "reqd": 1},
     {"fieldname": "instructions", "fieldtype": "Text", "label": "Instructions", "reqd": 1}
   ],
   "permissions": [
