@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ERPNext Inquiry Agent</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-dot"></div>
+        <div>
+          <h1>ERPNext Inquiry Assistant</h1>
+          <p>Frappe • HRMS • Custom Apps</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="chatbot-layout">
+      <section class="chat-card">
+        <div class="chat-header">
+          <div class="avatar">AI</div>
+          <div>
+            <h2>Live AI Agent</h2>
+            <small>Typically replies in a few seconds</small>
+          </div>
+        </div>
+
+        <div id="chat-window" class="chat-window" aria-live="polite"></div>
+
+        <form id="chat-form" class="chat-input-row">
+          <input
+            id="chat-input"
+            type="text"
+            placeholder="Ask about ERPNext v15, Frappe, HRMS..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <aside class="info-card">
+        <h3>What this agent can do</h3>
+        <ul>
+          <li>Answer ERPNext v15/Frappe/HRMS inquiries</li>
+          <li>Guide implementation and onboarding questions</li>
+          <li>Collect lead information for follow-up</li>
+          <li>Email your inquiry and full chat log to sales team</li>
+        </ul>
+      </aside>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

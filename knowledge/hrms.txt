@@ -1,0 +1,21 @@
+HRMS for ERPNext/Frappe typically supports:
+- Employee lifecycle management
+- Leave and attendance
+- Shift assignment
+- Payroll processing
+- Expense claims
+- Performance management (depending on setup)
+
+Discovery questions to ask prospects:
+- Number of employees/users
+- Payroll complexity and statutory requirements
+- Attendance source (manual/biometric/device integration)
+- Existing HR/payroll system and migration needs
+- Approval hierarchy and policy requirements
+
+Implementation checkpoints:
+- Employee master data quality
+- Leave policy design
+- Salary structure and components
+- Payroll calendar and test runs
+- Access control by HR role and department

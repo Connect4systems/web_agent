@@ -1,0 +1,26 @@
+{
+  "name": "web-agent",
+  "version": "1.0.0",
+  "description": "Elfsight-style AI web agent for ERPNext/Frappe/HRMS inquiry handling and lead capture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "erpnext",
+    "frappe",
+    "hrms",
+    "ai-agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "openai": "^4.56.0"
+  }
+}

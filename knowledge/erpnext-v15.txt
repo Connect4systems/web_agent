@@ -1,0 +1,28 @@
+ERPNext v15 is an open-source ERP platform built on the Frappe framework.
+
+Core modules commonly include:
+- Accounting
+- CRM
+- Sales
+- Purchase
+- Inventory
+- Manufacturing
+- Projects
+- Support
+- HR / Payroll (or via HRMS app)
+
+Typical implementation activities:
+- Requirement discovery and process mapping
+- Module setup and master data design
+- Workflow and approval design
+- Role/permission setup
+- Print formats and reports
+- Integrations (payment, e-commerce, legacy systems)
+- UAT and training
+- Go-live and hypercare support
+
+Best-practice positioning:
+- Prefer configuration over heavy customization.
+- Start with MVP processes and iterate.
+- Use role-based security and audit trail.
+- Plan data migration and validation early.

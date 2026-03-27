@@ -1,0 +1,21 @@
+Frappe is a full-stack Python + JavaScript framework used to build metadata-driven business applications.
+
+Common technical characteristics:
+- Document-based models (DocType)
+- Built-in permissions and role model
+- ORM and server-side scripting in Python
+- REST APIs and event hooks
+- Background jobs and scheduler
+- Desk UI with forms, lists, reports, dashboards
+
+Custom app development on Frappe usually includes:
+- New DocTypes and business logic
+- Custom workflows and notifications
+- Integrations with third-party APIs
+- Script reports and dashboards
+- Portal and web form experiences
+
+Architecture guidance:
+- Keep custom apps modular.
+- Avoid changing core app files directly.
+- Use proper app versioning and migration patches.
