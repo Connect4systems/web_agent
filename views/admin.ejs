@@ -1,0 +1,17 @@
+<h2>Agent Admin Panel</h2>
+<a href="/admin/edit/agent-instructions.txt">Edit Agent Instructions</a>
+<h3>Knowledge Text Blocks</h3>
+<ul>
+  <% files.forEach(f => { %>
+    <li>
+      <a href="/admin/edit/<%= f %>"><%= f %></a>
+      <form action="/admin/delete/<%= f %>" method="post" style="display:inline">
+        <button type="submit">Delete</button>
+      </form>
+    </li>
+  <% }) %>
+</ul>
+<form action="/admin/add" method="post">
+  <input name="name" placeholder="New block name (no .txt)" required>
+  <button type="submit">Add</button>
+</form>
