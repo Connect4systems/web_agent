@@ -1,0 +1,18 @@
+{
+  "doctype": "DocType",
+  "name": "Agent Instructions",
+  "module": "Web Agent",
+  "custom": 0,
+  "fields": [
+    {"fieldname": "instructions", "fieldtype": "Text", "label": "Instructions", "reqd": 1}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "submit": 0, "cancel": 0, "amend": 0}
+  ],
+  "is_submittable": 0,
+  "istable": 0,
+  "editable_grid": 0,
+  "track_changes": 1,
+  "track_views": 1,
+  "singleton": 1
+}

@@ -1,6 +1,5 @@
 from frappe import _
 
-
 def get_data():
     return [
         {
@@ -9,9 +8,5 @@ def get_data():
             "icon": "octicon octicon-bot",
             "type": "module",
             "label": _("Web Agent"),
-            "_doctype": [
-                "Agent Knowledge Block",
-                "Agent Instructions"
-            ]
         }
     ]

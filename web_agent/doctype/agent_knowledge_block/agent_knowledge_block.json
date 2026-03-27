@@ -1,0 +1,22 @@
+{
+  "doctype": "DocType",
+  "name": "Agent Knowledge Block",
+  "module": "Web Agent",
+  "custom": 0,
+  "fields": [
+    {"fieldname": "title", "fieldtype": "Data", "label": "Title", "reqd": 1},
+    {"fieldname": "content", "fieldtype": "Text", "label": "Content", "reqd": 1},
+    {"fieldname": "language", "fieldtype": "Select", "label": "Language", "options": "English\nArabic", "default": "English"},
+    {"fieldname": "block_type", "fieldtype": "Select", "label": "Type", "options": "General\nQ&A\nWeb Page\nFile", "default": "General"}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "submit": 0, "cancel": 0, "amend": 0}
+  ],
+  "is_submittable": 0,
+  "istable": 0,
+  "editable_grid": 0,
+  "track_changes": 1,
+  "track_views": 1,
+  "sort_field": "modified",
+  "sort_order": "desc"
+}
