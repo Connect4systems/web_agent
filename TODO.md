@@ -1,13 +1,13 @@
-# TODO - Elfsight-style Web Agent
+# Frappe App Scaffold TODO
 
-- [x] Initialize Node.js project with required dependencies
-- [x] Build Express backend with:
-  - [x] static hosting
-  - [x] chat endpoint using LLM
-  - [x] lead-capture logic
-  - [x] email sending with chat log
-- [x] Add configurable agent instruction and knowledge text blocks
-- [x] Build frontend chatbot UI (Elfsight-style layout)
-- [x] Implement frontend conversation + lead collection flow
-- [x] Add environment configuration example
-- [ ] Validate end-to-end flow locally
+- [ ] Create setup.py
+- [ ] Create MANIFEST.in
+- [ ] Create requirements.txt
+- [ ] Create pyproject.toml
+- [ ] Create web_agent/__init__.py
+- [ ] Create web_agent/hooks.py
+- [ ] Create web_agent/modules.txt
+- [ ] Create web_agent/config/__init__.py
+- [ ] Create web_agent/config/desktop.py
+- [ ] Validate scaffold file structure
+- [ ] Provide git push + bench install commands

@@ -1,0 +1,3 @@
+include requirements.txt
+recursive-include web_agent *.json *.md *.py *.txt
+recursive-exclude web_agent *.pyc

@@ -1,0 +1,6 @@
+app_name = "web_agent"
+app_title = "Web Agent"
+app_publisher = "Connect4systems"
+app_description = "Web Agent integration app for Frappe"
+app_email = "support@connect4systems.com"
+app_license = "MIT"
